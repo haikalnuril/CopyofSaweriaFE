@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urielria | Copycat Saweria</title>
+  <link rel="shortcut icon" type="image/x-icon" href="public/image/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            comfortaa: ['Comfortaa', 'sans-serif'],
+            ibm: ['IBM Plex Mono', 'monospace'],
+          colors: {
+          }
+        }
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="running-text bg-[#faae2b] text-base text-center font-ibm">
+    <p>Soundboard is now available! Activate via Overlay > Soundboard!</p>
+  </div>
+  <div class="w-3/4 mx-auto mt-3 relative">
+    <div class="navbar flex flex-row min-h-[60px] max-h-[110px]">
+      <a href="index.html" class="">
+        <div class="logo flex flex-row">
+          <img src="public/image/navbar_logo.png" alt="saweria" class="w-auto min-h-[60px] max-h-[70px]  ">
+          <a href="index.html" class="font-[comfortaa] text-[28px] font-extralight self-end pt-9">saweria.co</a>
+        </div>
+        <div class="w-2/3"></div>
+      </a>
+      <div class="group profile flex items-center px-5 border-[1px] border-black rounded-lg bg-[#F2F7F5] relative">
+        <button type="button" class="flex items-center gap-2 group-active:left-0.5 group-active:top-1">
+          <p class="bg-[#689cb8] py-3 px-5 rounded-3xl">H</p>
+          <p class="font-ibm">haikalnuril</p>
+        </button>
+        <div class="-z-10 group-active:left-0.5 group-active:top-1 absolute bg-gray-900 rounded-lg w-52 h-[77px] left-1.5 top-2">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
