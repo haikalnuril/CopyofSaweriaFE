@@ -1,1 +1,1 @@
-<p align="center"><a href="https://saweria.co/en" target="_blank"><img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/IamSeries/IamDesigner!.png" width="400" alt="I'm Designer Logo"></a></p>
+<p align="center"><a href="https://saweria.co/en" target="_blank"><img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/ResponseCode/500%20InternalServerError.png" width="700" alt="I'm Designer Logo"></a></p>
